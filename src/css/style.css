@@ -1,0 +1,59 @@
+header {
+    position: absolute;
+    width: 1200px;
+    height: 39px;
+    left: 200px;
+    margin-top: 21px;
+    background-color: aqua;
+}
+
+.logo {
+    margin-left: 0x;
+    margin-top: 0px;
+    float: left;
+}
+
+.vt {
+    margin-top: 7px;
+    margin-left: 10px;
+    height: 25px;
+    float: left;
+}
+
+.vo {
+    margin-top: 7px;
+    margin-left: 0px;
+    height: 25px;
+    float: left;
+}
+
+.ru {
+    width: 21.69px;
+    height: 20px;
+    margin-top: 0px;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+    margin-left: 66%;
+    margin-top: 6px;
+    float: left;
+}
+.planet{
+  float: left;
+}
+.in{
+    float: right;
+    width: 21.69px;
+    height: 20px;
+    margin-top: 6px;
+    margin-right: 3%;
+    font-family: 'Inter', sans-serif;
+    font-size: 15px;
+    line-height: 26px;
+}
+.title_container{
+    width: 100%;
+    height: calc(100% - 39px);
+    background: url(../img/main.jpg) 30% 100%/auto 100% no-repeat ,url(../img/bg.jpg) center/cover no-repeat;
+    
+}

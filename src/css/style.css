@@ -4,9 +4,7 @@ body{
     flex-direction: column;
     align-items: center;
 }
-.content{
-    width: 1200px;
-}
+
 header{
 
 }
@@ -39,4 +37,117 @@ nav{
     font-size: 18px;
     line-height: 26px;
     background: none;
+}
+
+.container{
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.op{
+    width: 100%;
+    background: url('../img/fotosl.jpg')  no-repeat center top / cover;
+    height: 880px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.op h2{
+    margin-top: 170px;
+    height: 142px;
+    font-weight: 600;
+    font-size: 60px;
+    line-height: 71.4px;
+    color: white;
+}
+
+.op h3{
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35.7px;
+    color: white;
+}
+
+.op h4{
+    width: 587px;
+    margin-top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23.8px;
+    color: white;
+}
+
+.op button{
+    background: #42C321;
+    border-radius: 5px;
+    padding: 12px 25px;
+    gap: 10px;
+    margin-top: 40px;
+    color: white;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 306px;
+}
+
+.three{
+    height: 2286px;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.three h2{
+    height: 36px;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 35.7px;
+    margin-top: 80px;
+    color: #434343;
+    width: 574px;
+}
+
+.icon{
+    display: flex;
+    flex-direction: row;
+}
+
+.icon div{
+    margin-right: 48px;
+}
+
+.imgone{
+    width: 127px;
+    height: 98px;
+}
+
+.imgtwo{
+    width: 74px;
+    height: 98px;
+}
+
+.imgthree{
+    width: 161px;
+    height: 98px;
+}
+
+.imgfour{
+    width: 95px;
+    height: 98px;
+}
+
+.textarea{
+    margin-top: 40px;
+    width: 630px;
+    height: 49px;
+    border-radius: 5px;
+    background: #F1F1F1;
+    display: flex;
+    justify-content: space-between;
 }

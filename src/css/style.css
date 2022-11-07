@@ -119,7 +119,13 @@ nav{
 }
 
 .icon div{
-    margin-right: 48px;
+    margin-right: 53.5px;
+}
+
+.icon img{
+    width: 64px;
+    height: 64px;
+    display: block;
 }
 
 .imgone{
@@ -142,12 +148,192 @@ nav{
     height: 98px;
 }
 
-.textarea{
+.input{
     margin-top: 40px;
+    background: #F1F1F1;
     width: 630px;
     height: 49px;
     border-radius: 5px;
-    background: #F1F1F1;
+    border: 1px solid #F1F1F1;
     display: flex;
     justify-content: space-between;
+}
+
+.input input{
+    background: #F1F1F1;
+    margin-top: 12px;
+    margin-left: 16px;
+    width: 374px;
+    height: 26px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.input img{
+    width: 19.85px;
+    height: 19.85px;
+    margin-right: 13.94px;
+    margin-top: 13.71px;
+}
+
+br{
+    width: 127px;
+    border: 3px solid green;
+}
+
+.gps{
+    margin-top: 31px;
+    margin-right: 0px;
+    display: flex;
+}
+
+.gps img{
+    width: 24.12px;
+    height: 32px;
+    margin-left: 3.94px;
+    margin-right: 0px;
+}
+
+.gps p{
+    width: 164px;
+    height: 25px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+}
+
+.first{
+    margin-top: 31px;
+    display: flex;
+    flex-direction: row;
+}
+
+.first_three{
+    background: url('../img/image\ 18.png');
+    width: 387px;
+    height: 359px;
+    display: flex;
+    flex-direction: column;
+}
+
+.first_three div{
+    display: flex;
+    flex-direction: row;
+    width: 387px;
+    height: 120px;
+    border-radius: 5px;
+    margin-top: 239px;
+}
+
+.first_three div img{
+    width: 50px;
+    height: 50px;
+    margin-top: 47px;
+    margin-left: 17px;
+}
+
+.first_three div span{
+    margin-top: 59px;
+    width: 230px;
+    height: 26px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 26px;
+    color: white;
+    margin-left: 12px;
+}
+
+.second_three{
+    background: url('../img/image19.png');
+    width: 387px;
+    height: 359px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.second_three div{
+    display: flex;
+    flex-direction: row;
+    width: 387px;
+    height: 120px;
+    border-radius: 5px;
+    margin-top: 239px;
+}
+
+.second_three div img{
+    width: 50px;
+    height: 50px;
+    margin-top: 47px;
+    margin-left: 17px;
+}
+
+.second_three div span{
+    margin-top: 59px;
+    width: 230px;
+    height: 26px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 26px;
+    color: white;
+    margin-left: 12px;
+}
+
+.three_three{
+    background: url('../img/image\ 20.png');
+    border-radius: 5px;
+    width: 387px;
+    height: 359px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.three_three div{
+    display: flex;
+    flex-direction: row;
+    width: 387px;
+    height: 120px;
+    border-radius: 5px;
+    margin-top: 239px;
+}
+
+.three_three div img{
+    width: 50px;
+    height: 50px;
+    margin-top: 47px;
+    margin-left: 17px;
+}
+
+.three_three div span{
+    margin-top: 59px;
+    width: 230px;
+    height: 26px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 26px;
+    color: white;
+    margin-left: 12px;
+}
+
+.first p{
+    width: 333px;
+    height: 26px;
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+}
+
+.first button{
+    width: 226px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 7px 21px 7px 21px;
+    gap: 10px;
+    background: #F1F1F1;
+    margin-top: 13px;
 }

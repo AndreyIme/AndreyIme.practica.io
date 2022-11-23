@@ -148,6 +148,17 @@ nav{
     height: 98px;
 }
 
+.icon button{
+    margin: 0 auto;
+    display: block;
+    background: none;
+}
+
+.raz{
+    width: 64px;
+    height: 64px;
+}
+
 .input{
     margin-top: 40px;
     background: #F1F1F1;
@@ -180,160 +191,181 @@ nav{
 
 br{
     width: 127px;
+    height: 1px;
     border: 3px solid green;
 }
 
-.gps{
-    margin-top: 31px;
-    margin-right: 0px;
+.first{
     display: flex;
+    flex-direction: row;
+    margin-top: 94px;
 }
 
-.gps img{
-    width: 24.12px;
-    height: 32px;
-    margin-left: 3.94px;
-    margin-right: 0px;
+.one{
+    background: url('../img/image\ 18.png');
+    margin-right: 20px;
 }
 
-.gps p{
-    width: 164px;
-    height: 25px;
+.type{
+    background-repeat: no-repeat;
+    background: cover;
+    width: 387px;
+    height: 359px;
+    border-radius: 5px;
+}
+
+.vnu{
+    margin-top: 239px;
+    width: 387px;
+    height: 120px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.vnu img{
+    margin-top: 47px;
+    width: 50px;
+    height: 50px;
+    margin-right: 12px;
+    margin-left: 17px;
+}
+
+.vnu span{
+    color: white;
+    margin-top: 59px;
+    width: 230px;
+    height: 26px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 26px;
+}
+
+.two{
+    background: url('../img/image19.png');
+    margin-right: 20px;
+}
+
+.tretiy{
+    background: url('../img/image\ 20.png');
+}
+
+.first p{
+    color: black;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 15px;
+    width: 333px;
+    height: 26px;
+}
+
+.first button{
+    width: 226px;
+    height: 40px;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 7px 21px;
+    gap: 10px;
     font-weight: 500;
     font-size: 16px;
     line-height: 26px;
     text-align: center;
 }
 
-.first{
-    margin-top: 31px;
-    display: flex;
-    flex-direction: row;
+.solo{
+    margin-top: 144px;
+    width: 163px;
+    height: 50px;
+    background: #42C321;
+    padding: 12px 25px;
+    gap: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: white;
 }
 
-.first_three{
-    background: url('../img/image\ 18.png');
-    width: 387px;
-    height: 359px;
+.oneone{
+    background: url('../img/image30.png');
+    margin-right: 20px;
+}
+
+.twoone{
+    background: url('../img/image\ 31.png');
+    margin-right: 20px;
+}
+
+.tretiyone{
+    background: url('../img/image\ 32.png');
+}
+
+.esh{
+    margin-top: 174px;
+}
+
+.onetwo{
+    background: url('../img/image\ 33.png');
+    margin-right: 20px;
+}
+
+.twotwo{
+    background: url('../img/image\ 34.png');
+    margin-right: 20px;
+}
+
+.tretiytwo{
+    background: url('../img/image\ 35.png');
+}
+
+footer{
+    width: 100%;
+    background: #F8F8F8;
+    box-shadow: inset 0px 12px 17px rgba(0, 0, 0, 0.02);
+    margin-top: 196px;
+    height: 293px;
+}
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer div{
     display: flex;
     flex-direction: column;
 }
 
-.first_three div{
-    display: flex;
-    flex-direction: row;
-    width: 387px;
-    height: 120px;
-    border-radius: 5px;
-    margin-top: 239px;
-}
-
-.first_three div img{
-    width: 50px;
-    height: 50px;
-    margin-top: 47px;
-    margin-left: 17px;
-}
-
-.first_three div span{
-    margin-top: 59px;
-    width: 230px;
+.footer span{
     height: 26px;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 26px;
-    color: white;
-    margin-left: 12px;
-}
-
-.second_three{
-    background: url('../img/image19.png');
-    width: 387px;
-    height: 359px;
-    display: flex;
-    flex-direction: column;
-    margin-left: 20px;
-}
-
-.second_three div{
-    display: flex;
-    flex-direction: row;
-    width: 387px;
-    height: 120px;
-    border-radius: 5px;
-    margin-top: 239px;
-}
-
-.second_three div img{
-    width: 50px;
-    height: 50px;
-    margin-top: 47px;
-    margin-left: 17px;
-}
-
-.second_three div span{
-    margin-top: 59px;
-    width: 230px;
-    height: 26px;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 26px;
-    color: white;
-    margin-left: 12px;
-}
-
-.three_three{
-    background: url('../img/image\ 20.png');
-    border-radius: 5px;
-    width: 387px;
-    height: 359px;
-    display: flex;
-    flex-direction: column;
-    margin-left: 20px;
-}
-
-.three_three div{
-    display: flex;
-    flex-direction: row;
-    width: 387px;
-    height: 120px;
-    border-radius: 5px;
-    margin-top: 239px;
-}
-
-.three_three div img{
-    width: 50px;
-    height: 50px;
-    margin-top: 47px;
-    margin-left: 17px;
-}
-
-.three_three div span{
-    margin-top: 59px;
-    width: 230px;
-    height: 26px;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 26px;
-    color: white;
-    margin-left: 12px;
-}
-
-.first p{
-    width: 333px;
-    height: 26px;
-    margin-top: 15px;
-    font-weight: 500;
+    font-weight: 600;
     font-size: 18px;
     line-height: 26px;
+    color: #242424;
+    margin-bottom: 2px;
+    margin-top: 40px;
 }
 
-.first button{
-    width: 226px;
-    height: 40px;
-    border-radius: 5px;
-    padding: 7px 21px 7px 21px;
-    gap: 10px;
-    background: #F1F1F1;
-    margin-top: 13px;
+.footer a{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22.4px;
+    color: #848484;
+    margin-top: 20px;
+}
+
+.nelast{
+    width: 129px;
+    height: 26px;
+    margin-top: 49px;
+    margin-bottom: 24px;
+}
+
+.last{
+    margin-top: 27px;
+    width: 173px;
+    height: 39px;
 }

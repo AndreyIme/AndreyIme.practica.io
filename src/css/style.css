@@ -6,13 +6,15 @@ body{
 }
 
 header{
-
+    height: 80px;
 }
 nav{
     display: flex;
     justify-content: space-between;
-    margin-top: 21px;
-    margin-bottom: 20px;
+}
+
+.logo{
+    margin-top: 13px;
 }
 
 .last{
@@ -368,4 +370,335 @@ footer{
     margin-top: 27px;
     width: 173px;
     height: 39px;
+}
+
+@media screen and (max-width: 1199px) {
+    .container{
+        width: 960px;
+    }
+    .type{
+        background-repeat: no-repeat;
+        background: cover;
+        width: 306px;
+        height: 359px;
+        border-radius: 5px;
+    }
+    .first p{
+        color: black;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 26px;
+        text-align: left;
+        margin-top: 15px;
+        width: 306px;
+        height: 26px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .container{
+        width: 600px;
+    }
+    header{
+        height: 60px;
+    }
+    nav{
+        display: flex;
+        justify-content: space-between;
+        height: 60px;
+    }
+    
+    .last{
+        display: flex;
+        flex-direction: row;
+        margin-top: 20px;
+    }
+    
+    .ru span{
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 26px;
+        margin-right: 6.72px;
+    }
+    
+    .ru img{
+        width: 24.76px;
+        height: 23.95px;
+        margin-right: 51.85px;
+    }
+    .last button{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 26px;
+        background: none;
+    }
+    .op{
+        width: 100%;
+        height: 964px;
+        background: url('../img/fotosl2.png')  no-repeat center top;
+        background-size: 100% 964px;
+        height: 964px;
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    .op h2{
+        margin-top: 170px;
+        height: 86px;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 42.84px;
+        color: white;
+    }
+    .op h3{
+        margin-top: 10px;
+        height: 31px;
+        font-weight: 400;
+        font-size: 26px;
+        line-height: 30.94px;
+        color: white;
+    }
+    
+    .op h4{
+        width: 478px;
+        height: 130px;
+        margin-top: 16px;
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23.8px;
+        color: white;
+    }
+    
+    .op button{
+        background: #42C321;
+        border-radius: 5px;
+        padding: 12px 25px;
+        gap: 10px;
+        margin-top: 44px;
+        color: white;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        margin-bottom: 306px;
+    }
+    .content{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .three h2{
+        height: 31px;
+        font-weight: 500;
+        font-size: 26px;
+        line-height: 30.94px;
+        margin-top: 40px;
+        color: #434343;
+        width: 600px;
+        text-align: center;
+    }
+    
+    .icon{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .icon div{
+        margin-right: 48px;
+        margin-top: 30px;
+    }
+    
+    .icon img{
+        width: 64px;
+        height: 64px;
+        display: block;
+    }
+    
+    .icon button{
+        margin: 0 auto;
+        display: block;
+        background: none;
+    }
+    
+    .raz{
+        width: 64px;
+        height: 64px;
+    }
+    
+    .input{
+        margin-top: 40px;
+        background: #F1F1F1;
+        width: 600px;
+        height: 47px;
+        border-radius: 5px;
+        border: 1px solid #F1F1F1;
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .input input{
+        background: #F1F1F1;
+        margin-top: 11.51px;
+        margin-left: 16px;
+        width: 374px;
+        height: 26px;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 26px;
+        text-align: center;
+    }
+    
+    .input img{
+        width: 19.85px;
+        height: 19.85px;
+        margin-right: 13.94px;
+        margin-top: 13.71px;
+    }
+    
+    br{
+        width: 127px;
+        height: 1px;
+        border: 3px solid green;
+    }
+    
+    .first{
+        display: flex;
+        flex-direction: row;
+        margin-top: 106px;
+    }
+    
+    .one{
+        background: url('../img/image\ 18.png');
+        margin-right: 20px;
+    }
+    
+    .type{
+        background-repeat: no-repeat;
+        background: cover;
+        width: 387px;
+        height: 359px;
+        border-radius: 5px;
+    }
+    
+    .vnu{
+        margin-top: 239px;
+        width: 387px;
+        height: 120px;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    .vnu img{
+        margin-top: 47px;
+        width: 50px;
+        height: 50px;
+        margin-right: 12px;
+        margin-left: 17px;
+    }
+    
+    .vnu span{
+        color: white;
+        margin-top: 59px;
+        width: 230px;
+        height: 26px;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 26px;
+    }
+    
+    .two{
+        background: url('../img/image19.png');
+        margin-right: 20px;
+    }
+    
+    .tretiy{
+        background: url('../img/image\ 20.png');
+    }
+    
+    .first p{
+        color: black;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 26px;
+        text-align: center;
+        margin-top: 15px;
+        width: 333px;
+        height: 26px;
+    }
+    
+    .first button{
+        width: 226px;
+        height: 40px;
+        margin-top: 20px;
+        border-radius: 5px;
+        padding: 7px 21px;
+        gap: 10px;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+    }
+    
+    .solo{
+        margin-top: 144px;
+        width: 163px;
+        height: 50px;
+        background: #42C321;
+        padding: 12px 25px;
+        gap: 10px;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 26px;
+        text-align: center;
+        color: white;
+    }
+    
+    .oneone{
+        background: url('../img/image30.png');
+        margin-right: 20px;
+    }
+    
+    .twoone{
+        background: url('../img/image\ 31.png');
+        margin-right: 20px;
+    }
+    
+    .tretiyone{
+        background: url('../img/image\ 32.png');
+    }
+    
+    .esh{
+        margin-top: 174px;
+    }
+    
+    .onetwo{
+        background: url('../img/image\ 33.png');
+        margin-right: 20px;
+    }
+    
+    .twotwo{
+        background: url('../img/image\ 34.png');
+        margin-right: 20px;
+    }
+    
+    .tretiytwo{
+        background: url('../img/image\ 35.png');
+    }
+}
+@media screen and (max-width: 767px) {
+    .container{
+        width: 540px;
+    }
+}
+@media screen and (max-width: 575px) {
+    .container{
+        width: 288px;
+    }
+}
+@media screen and (max-width: 288px) {
+    .container{
+        width: 100%;
+        padding: 0 10px;
+    }
 }
